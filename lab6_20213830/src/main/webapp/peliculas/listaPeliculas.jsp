@@ -59,7 +59,7 @@
             </td>
             <td> <%= String.format("$%,.0f", peliculaB.getBoxOffice()) %></td>
             <td> <%=peliculaB.getGenero()%></td>
-            <td><a href="actores?id=<%= peliculaB.getIdPelicula() %>">Ver Actores</a></td>
+            <td><a href="ActorServlet?idPelicula=<%= peliculaB.getIdPelicula() %>">Ver Actores</a></td>
 
         </tr>
         <% } %>

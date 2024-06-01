@@ -63,7 +63,7 @@
     </tr>
     <tr>
         <th>Actores</th>
-        <td><a href="ActoresServlet?idPelicula=<%= pelicula.getIdPelicula() %>">Ver Actores</a></td>
+        <td><a href="ActorServlet?idPelicula=<%= pelicula.getIdPelicula() %>">Ver Actores</a></td>
     </tr>
 </table>
 

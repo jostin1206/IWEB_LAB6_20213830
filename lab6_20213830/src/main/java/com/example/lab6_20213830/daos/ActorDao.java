@@ -23,7 +23,7 @@ public class ActorDao {
                 "    a.Nombre,\n" +
                 "    a.Apellido,\n" +
                 "    a.anoNacimiento,\n" +
-                "    a.premiOOscar\n" +
+                "    a.premioOscar\n" +
                 "FROM \n" +
                 "    Actor a\n" +
                 "JOIN \n" +
